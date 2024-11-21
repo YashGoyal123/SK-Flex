@@ -1,0 +1,25 @@
+.marquee {
+    position: relative;
+    top: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%; /* Full width */
+    font-size: large;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.marquee-inner {
+    display: inline-block;
+    animation: marquee 20s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Start from right */
+    }
+    100% {
+        transform: translateX(-100%); /* End at left */
+    }
+}

@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 1rem 2rem; */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1F2833;
+  color: #fff;
+}
+
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-links li a {
+  /* background-color: #66FCF1; */
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  list-style: none;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-search input {
+  padding: 0.3rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.navbar-search button {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #1F2833;
+  color: #66FCF1;
+  cursor: pointer;
+  font-size: large;
+}
+
+.navbar-search button:hover {
+  background-color: #0B0C10;
+}
+
+.navbar-links button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px; /* Makes buttons round */
+  background-color: #66FCF1;
+  border: none;
+  color: #1F2833;
+  font-size: large;
+  cursor: pointer;
+}
+
+.navbar-links button:hover {
+  background-color: #45A29E;
+}
+
+.dropdown-button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px; /* Makes the dropdown button round */
+  background-color: #66FCF1;
+  border: none;
+  color: #1F2833;
+  font-size: large;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  background-color: #45A29E;
+}
+
+.dropdown-menu button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px; /* Makes the dropdown menu buttons round */
+  background-color: #444;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background-color: #666;
+}
+
+.navbar-search button {
+  padding: 0.3rem 1rem;
+  border-radius: 20px; /* Makes search button round */
+  background-color: #1F2833;
+  color: #66FCF1;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+}
+
+.navbar-search button:hover {
+  background-color: #0B0C10;
+}
+
+/* Optional: Style for the search input for consistency */
+.navbar-search input {
+  padding: 0.3rem;
+  border-radius: 20px; /* Rounds the search input as well */
+  border: 1px solid #66FCF1;
+}
